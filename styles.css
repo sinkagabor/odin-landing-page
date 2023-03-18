@@ -79,3 +79,40 @@ body {
     text-align: center;
     border-radius: 12px;
 }
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+
+.card-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.card-container {
+    display: flex;
+    gap: 32px;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #87a9f0 5px solid;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.card img {
+    height: auto;
+    width: 100px;
+}
