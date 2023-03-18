@@ -52,6 +52,7 @@ body {
     font-size: 48px;
     font-weight: 900;
 }
+
 .left-hero {
     color: #e5e7eb;
     font-size: 18px;
@@ -109,10 +110,41 @@ body {
     border-radius: 12px;
     width: 150px;
     height: 150px;
-    
+
 }
 
 .card img {
     height: auto;
     width: 100px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #151c2f;
+    padding: 80px 0 80px;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 100;
+    font-style: italic;
+
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 32px;
+    font-weight: 800;
 }
