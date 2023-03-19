@@ -70,15 +70,23 @@ body {
     width: 200px;
 }
 
+.signup-btn-transparent,
 .signup-btn-blue {
     color: white;
     font-size: 16px;
     font-weight: 600;
     background-color: #87a9f0;
-    border: 0;
     padding: 12px 32px 12px;
     text-align: center;
     border-radius: 12px;
+}
+
+.signup-btn-blue {
+    border: 0;
+}
+
+.signup-btn-transparent {
+    border: white solid 2px;
 }
 
 .card-content {
@@ -99,7 +107,6 @@ body {
 .card-container {
     display: flex;
     gap: 32px;
-
 }
 
 .card {
@@ -110,7 +117,6 @@ body {
     border-radius: 12px;
     width: 150px;
     height: 150px;
-
 }
 
 .card img {
@@ -140,11 +146,39 @@ body {
     font-size: 32px;
     font-weight: 100;
     font-style: italic;
-
 }
 
 .quote-author {
     align-self: flex-end;
     font-size: 32px;
     font-weight: 800;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 1000px;
+    display: flex;
+    background-color: #87a9f0;
+    color: white;
+    border-radius: 12px;
+    margin: 100px 0 100px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #151c2f;
+    color: white;
+    padding: 40px;
+    margin-top: auto;
 }
